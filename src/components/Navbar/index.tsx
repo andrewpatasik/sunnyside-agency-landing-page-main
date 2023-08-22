@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default () => {
   return (
-    <nav className="fixed w-full flex justify-between p-7">
+    <nav className="z-50 fixed w-full flex justify-between p-7">
       <Image
         src="/images/logo.svg"
         alt=""
