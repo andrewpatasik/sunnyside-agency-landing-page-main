@@ -5,7 +5,7 @@ const fraunces = Fraunces({ weight: "900", subsets: ["latin"] });
 
 export const Hero = () => {
   return (
-    <div className="relative min-h-max">
+    <section className="relative min-h-max">
       <div className="image-container">
         <picture>
           <source
@@ -23,7 +23,7 @@ export const Hero = () => {
       </div>
 
       <div className="absolute inset-x-0 inset-y-1/2  flex flex-col justify-center items-center space-y-12 text-center">
-        <h1 className={`${fraunces.className} white text-[2.7rem] tracking-[0.275rem] leading-tight`}>WE ARE CREATIVES</h1>
+        <h1 className={`${fraunces.className} white uppercase text-[2.5rem] tracking-[0.275rem] leading-tight`}>we are creatives</h1>
         <Image
           src="/images/icon-arrow-down.svg"
           alt=""
@@ -32,6 +32,6 @@ export const Hero = () => {
           className="w-auto h-auto"
         />
       </div>
-    </div>
+    </section>
   );
 };

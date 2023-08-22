@@ -40,3 +40,15 @@
 .very-dark-grayish-blue {
   color: var(--very-dark-grayish-blue);
 }
+
+.dark-grayish-blue {
+  color: var(--dark-grayish-blue);
+}
+
+.bg-soft-red {
+  background-color: var(--soft-red);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
+}
