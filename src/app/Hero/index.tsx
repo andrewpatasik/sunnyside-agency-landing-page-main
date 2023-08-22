@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <div className="h-1/2">
+    <div className="min-h-max">
       <div className="image-container">
         <picture>
           <source
@@ -14,7 +14,7 @@ export const Hero = () => {
             alt=""
             width={375}
             height={614}
-            className="w-full h-auto lg:h-1/2"
+            className="w-full h-auto"
           />
         </picture>
       </div>
