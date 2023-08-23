@@ -53,6 +53,10 @@
   color: var(--dark-blue);
 }
 
+.grayish-blue {
+  color: var(--grayish-blue);
+}
+
 .bg-soft-red {
   background-color: var(--soft-red);
 }

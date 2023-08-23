@@ -101,7 +101,7 @@ export const Features = () => {
             </picture>
           </div>
 
-          <div className="absolute inset-x-0 inset-y-3/4 flex flex-col justify-center items-center px-5 space-y-10 text-center">
+          <div className="absolute inset-x-0 inset-y-3/4 flex flex-col justify-center items-center px-5 space-y-6 text-center">
             <h2
               className={`${fraunces.className} text-3xl dark-desaturated-cyan`}
             >
@@ -132,7 +132,7 @@ export const Features = () => {
             </picture>
           </div>
 
-          <div className="absolute inset-x-0 inset-y-3/4 flex flex-col justify-center items-center px-5 space-y-10 text-center tracking-tighter">
+          <div className="absolute inset-x-0 inset-y-3/4 flex flex-col justify-center items-center px-5 space-y-6 text-center tracking-tighter">
             <h2
               className={`${fraunces.className} text-3xl dark-desaturated-cyan`}
             >
