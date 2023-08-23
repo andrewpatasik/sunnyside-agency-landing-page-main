@@ -45,7 +45,7 @@ export const Features = () => {
         </div>
       </div>
 
-      <div className="flex flex-col sm:flex-row-reverse">
+      <div className="flex flex-col sm:flex-row">
         <div className="image-container">
           <picture>
             <source
@@ -80,6 +80,69 @@ export const Features = () => {
             </p>
             <div className="-z-10 block absolute inset-x-0 -bottom-[0.075rem] bg-soft-red opacity-30 w-full h-2 rounded-full hover:opacity-100 active:opacity-100"></div>
           </Link>
+        </div>
+      </div>
+
+      <div className="flex flex-col sm:flex-row">
+        <div className="relative min-h-max">
+          <div className="image-container">
+            <picture>
+              <source
+                media="(min-width: 1280px)"
+                srcSet="/images/desktop/image-graphic-design.jpg"
+              />
+              <Image
+                src="/images/mobile/image-graphic-design.jpg"
+                alt=""
+                width={375}
+                height={610}
+                className="w-full h-auto"
+              />
+            </picture>
+          </div>
+
+          <div className="absolute inset-x-0 inset-y-3/4 flex flex-col justify-center items-center px-5 space-y-10 text-center">
+            <h2
+              className={`${fraunces.className} text-3xl dark-desaturated-cyan`}
+            >
+              Graphic Design
+            </h2>
+            <p className="dark-blue text-lg tracking-tighter">
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients'
+              attention.
+            </p>
+          </div>
+        </div>
+
+        <div className="relative min-h-max">
+          <div className="image-container">
+            <picture>
+              <source
+                media="(min-width: 1280px)"
+                srcSet="/images/desktop/image-photography.jpg"
+              />
+              <Image
+                src="/images/mobile/image-photography.jpg"
+                alt=""
+                width={375}
+                height={610}
+                className="w-full h-auto"
+              />
+            </picture>
+          </div>
+
+          <div className="absolute inset-x-0 inset-y-3/4 flex flex-col justify-center items-center px-5 space-y-10 text-center tracking-tighter">
+            <h2
+              className={`${fraunces.className} text-3xl dark-desaturated-cyan`}
+            >
+              Photography
+            </h2>
+            <p className="dark-blue text-lg -tracking-[1px]">
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
         </div>
       </div>
     </section>

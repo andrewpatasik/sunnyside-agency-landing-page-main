@@ -41,8 +41,16 @@
   color: var(--very-dark-grayish-blue);
 }
 
+.dark-desaturated-cyan {
+  color: var(--dark-desaturated-cyan);
+}
+
 .dark-grayish-blue {
   color: var(--dark-grayish-blue);
+}
+
+.dark-blue {
+  color: var(--dark-blue);
 }
 
 .bg-soft-red {
