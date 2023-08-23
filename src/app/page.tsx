@@ -2,6 +2,7 @@ import { Navbar } from "@/components";
 import { Hero } from "./Hero";
 import { Features } from "./Features";
 import { Testimonial } from "./Testimonial";
+import { Footer } from "./Footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Testimonial />
+      <Footer />
     </main>
   )
 }

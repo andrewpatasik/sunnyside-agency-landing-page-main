@@ -7,7 +7,7 @@ const barlow = Barlow({ weight: ["600"], subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Sunnyside | Frontend Mentor",
   description:
-    "Sunnyside agency landing page with grid. Challenge by Frontend Mentor",
+    "Sunnyside agency landing page with flexbox. Challenge by Frontend Mentor",
 };
 
 export default function RootLayout({
