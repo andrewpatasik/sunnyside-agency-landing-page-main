@@ -1,3 +1,10 @@
+import {
+  FacebookIcon,
+  InstagramIcon,
+  PinterestIcon,
+  SunnySideLogo,
+  TwitterIcon,
+} from "@/assets";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -68,13 +75,7 @@ export const Footer = () => {
       </div>
 
       <div className="bg-dark-moderate-cyan dark-desaturated-cyan flex flex-col justify-center items-center space-y-16 py-20">
-        <Image
-          src="/images/logo.svg"
-          alt=""
-          width={0}
-          height={0}
-          className="w-auto h-auto"
-        />
+        <SunnySideLogo />
         <ul className="w-full flex justify-around items-center">
           <li>
             <Link href="/">About</Link>
@@ -87,18 +88,26 @@ export const Footer = () => {
           </li>
         </ul>
 
-        <ul className="w-full flex justify-around items-center">
+        <ul className="w-full flex justify-evenly items-center">
           <li>
-            <Link href="/">Facebook</Link>
+            <Link href="/">
+              <FacebookIcon />
+            </Link>
           </li>
           <li>
-            <Link href="/">Instagram</Link>
+            <Link href="/">
+              <InstagramIcon />
+            </Link>
           </li>
           <li>
-            <Link href="/">Twitter</Link>
+            <Link href="/">
+              <TwitterIcon />
+            </Link>
           </li>
           <li>
-            <Link href="/">Pinterest</Link>
+            <Link href="/">
+              <PinterestIcon />
+            </Link>
           </li>
         </ul>
       </div>
