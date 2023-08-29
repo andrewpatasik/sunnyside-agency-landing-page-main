@@ -15,7 +15,7 @@ export const Footer = () => {
         <div className="basis-1/2 sm:basis-1/4">
           <picture>
             <source
-              media="(min-width: 1280px)"
+              media="(min-width: 768px)"
               srcSet="/images/desktop/image-gallery-milkbottles.jpg"
             />
             <Image
@@ -30,7 +30,7 @@ export const Footer = () => {
         <div className="basis-1/2 sm:basis-1/4">
           <picture>
             <source
-              media="(min-width: 1280px)"
+              media="(min-width: 768px)"
               srcSet="/images/desktop/image-gallery-orange.jpg"
             />
             <Image
@@ -45,7 +45,7 @@ export const Footer = () => {
         <div className="basis-1/2 sm:basis-1/4">
           <picture>
             <source
-              media="(min-width: 1280px)"
+              media="(min-width: 768px)"
               srcSet="/images/desktop/image-gallery-cone.jpg"
             />
             <Image
@@ -60,7 +60,7 @@ export const Footer = () => {
         <div className="basis-1/2 sm:basis-1/4">
           <picture>
             <source
-              media="(min-width: 1280px)"
+              media="(min-width: 768px)"
               srcSet="/images/desktop/image-gallery-sugar-cubes.jpg"
             />
             <Image

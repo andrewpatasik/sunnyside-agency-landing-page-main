@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className="image-container">
         <picture>
           <source
-            media="(min-width: 1280px)"
+            media="(min-width:768px)"
             srcSet="/images/desktop/image-header.jpg"
           />
           <Image
