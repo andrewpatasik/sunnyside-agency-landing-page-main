@@ -76,7 +76,7 @@ export const Footer = () => {
 
       <div className="bg-dark-moderate-cyan dark-desaturated-cyan flex flex-col justify-center items-center space-y-16 py-20">
         <SunnySideLogo />
-        <ul className="w-full flex justify-around items-center">
+        <ul className="w-full flex justify-around items-center md:justify-center md:space-x-12">
           <li>
             <Link href="/">About</Link>
           </li>
@@ -88,7 +88,7 @@ export const Footer = () => {
           </li>
         </ul>
 
-        <ul className="w-full flex justify-evenly items-center">
+        <ul className="w-full flex justify-evenly items-center md:justify-center md:space-x-12">
           <li>
             <Link href="/">
               <FacebookIcon />

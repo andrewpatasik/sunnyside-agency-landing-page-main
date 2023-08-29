@@ -20,7 +20,7 @@ export const Testimonial = () => {
           className="w-20 h-20 h-auto rounded-full"
         />
 
-        <p className="dark-grayish-blue text-lg">
+        <p className="dark-grayish-blue text-lg basis-3/4">
           We put our trust in Sunnyside and they delivered, making sure our
           needs were met and deadlines were always hit.
         </p>
@@ -41,7 +41,7 @@ export const Testimonial = () => {
           className="w-20 h-20 h-auto rounded-full"
         />
 
-        <p className="dark-grayish-blue text-lg">
+        <p className="dark-grayish-blue text-lg basis-3/4">
           Sunnyside's enthusiasm with their keen interest in our brand's success
           made it a satisfying and enjoyable experience.
         </p>
@@ -62,7 +62,7 @@ export const Testimonial = () => {
           className="w-20 h-20 h-auto rounded-full"
         />
 
-        <p className="dark-grayish-blue text-lg">
+        <p className="dark-grayish-blue text-lg basis-3/4">
           Incredible end result! Our sales increased over 400% when we worked
           with Sunnyside. Highly recommended!
         </p>
