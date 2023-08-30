@@ -22,8 +22,8 @@ export const Hero = () => {
         </picture>
       </div>
 
-      <div className="absolute inset-x-0 inset-y-1/2  flex flex-col justify-center items-center space-y-12 text-center">
-        <h1 className={`${fraunces.className} white uppercase text-[2.5rem] tracking-[0.275rem] leading-tight`}>we are creatives</h1>
+      <div className="absolute inset-x-0 top-[27%] xl:top-[30%] flex flex-col justify-center items-center space-y-12 xl:space-y-24 text-center">
+        <h1 className={`${fraunces.className} white uppercase text-[2.5rem] xl:text-5xl tracking-[0.275rem] leading-tight lg:tracking-[0.75rem]`}>we are creatives</h1>
         <Image
           src="/images/icon-arrow-down.svg"
           alt=""

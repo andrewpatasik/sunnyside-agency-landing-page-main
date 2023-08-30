@@ -11,7 +11,7 @@ export const Testimonial = () => {
       >
         client testimonials
       </h2>
-      <div className="flex flex-col basis-full sm:basis-1/3 justify-center items-center space-y-10">
+      <div className="flex flex-col basis-full sm:basis-1/3 px-2 justify-center items-center space-y-10">
         <Image
           src="/images/image-emily.jpg"
           alt=""
@@ -32,7 +32,7 @@ export const Testimonial = () => {
         </div>
       </div>
 
-      <div className="flex flex-col basis-full sm:basis-1/3 justify-center items-center space-y-10">
+      <div className="flex flex-col basis-full sm:basis-1/3 px-2 justify-center items-center space-y-10">
         <Image
           src="/images/image-thomas.jpg"
           alt=""
@@ -53,7 +53,7 @@ export const Testimonial = () => {
         </div>
       </div>
 
-      <div className="flex flex-col basis-full sm:basis-1/3 justify-center items-center space-y-10">
+      <div className="flex flex-col basis-full sm:basis-1/3 px-2 justify-center items-center space-y-10">
         <Image
           src="/images/image-jennie.jpg"
           alt=""

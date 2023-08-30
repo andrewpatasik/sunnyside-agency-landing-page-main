@@ -23,13 +23,13 @@ export const Features = () => {
             />
           </picture>
         </div>
-        <div className="md:basis-1/2 flex flex-col justify-center items-center space-y-8 py-16 px-8 text-center md:py-0 md:items-start md:text-left lg:px-24 ">
+        <div className="md:basis-1/2 flex flex-col justify-center items-center space-y-8 py-16 px-8 text-center md:py-0 md:items-start md:text-left lg:px-36">
           <h2
-            className={`${fraunces.className} very-dark-desaturated-blue text-4xl md:text-3xl md:self-start`}
+            className={`${fraunces.className} very-dark-desaturated-blue text-4xl md:text-3xl md:self-start lg:text-4xl`}
           >
             Transform your<span className="md:block">brand</span>
           </h2>
-          <p className="dark-grayish-blue md:text-sm md:-tracking-[0.5px] md:leading-relaxed">
+          <p className="dark-grayish-blue md:text-sm md:-tracking-[0.5px] md:leading-relaxed lg:text-lg lg:-tracking-[0.65px] lg:leading-relaxed">
             We are a full-service agency specializing in helping brands grow
             fast. Engage your clients through compelling visuals that do most of
             the marketing for you.
@@ -61,13 +61,13 @@ export const Features = () => {
             />
           </picture>
         </div>
-        <div className="md:basis-1/2 flex flex-col justify-center items-center space-y-8 py-16 px-8 text-center md:py-0 md:items-start md:text-left lg:px-24 ">
+        <div className="md:basis-1/2 flex flex-col justify-center items-center space-y-8 py-16 px-8 text-center md:py-0 md:items-start md:text-left lg:px-36">
           <h2
-            className={`${fraunces.className} very-dark-desaturated-blue text-4xl md:text-3xl`}
+            className={`${fraunces.className} very-dark-desaturated-blue text-4xl md:text-3xl lg:text-4xl`}
           >
             Stand out to the right audience
           </h2>
-          <p className="dark-grayish-blue md:text-sm md:-tracking-[0.5px] md:leading-relaxed">
+          <p className="dark-grayish-blue md:text-sm md:-tracking-[0.5px] md:leading-relaxed lg:text-lg lg:-tracking-[0.65px] lg:leading-relaxed">
             Using a collaborative formula of designers, researchers,
             photographers, videographers, and copywriters, we'll build and
             extend your brand in digital places.
@@ -84,7 +84,7 @@ export const Features = () => {
       </div>
 
       <div className="flex flex-col sm:flex-row">
-        <div className="relative min-h-max">
+        <div className="relative min-h-max md:basis-1/2">
           <div className="image-container">
             <picture>
               <source
@@ -101,13 +101,13 @@ export const Features = () => {
             </picture>
           </div>
 
-          <div className="absolute inset-x-0 inset-y-3/4 flex flex-col justify-center items-center px-5 space-y-6 text-center md:space-y-3">
+          <div className="absolute inset-x-0 inset-y-3/4 flex flex-col justify-center items-center px-5 space-y-6 text-center md:space-y-3 lg:px-36">
             <h2
               className={`${fraunces.className} text-3xl dark-desaturated-cyan md:text-2xl`}
             >
               Graphic Design
             </h2>
-            <p className="dark-blue text-lg tracking-tighter md:text-sm md:w-3/4">
+            <p className="dark-blue text-lg tracking-tighter md:text-sm md:w-3/5 md:mx-auto">
               Great design makes you memorable. We deliver artwork that
               underscores your brand message and captures potential clients'
               attention.
@@ -115,7 +115,7 @@ export const Features = () => {
           </div>
         </div>
 
-        <div className="relative min-h-max">
+        <div className="relative min-h-max md:basis-1/2">
           <div className="image-container">
             <picture>
               <source
@@ -132,7 +132,7 @@ export const Features = () => {
             </picture>
           </div>
 
-          <div className="absolute inset-x-0 inset-y-3/4 flex flex-col justify-center items-center px-5 space-y-6 text-center tracking-tighter md:space-y-3">
+          <div className="absolute inset-x-0 inset-y-3/4 flex flex-col justify-center items-center px-5 space-y-6 text-center tracking-tighter md:space-y-3 md:w-1/2 md:mx-auto">
             <h2
               className={`${fraunces.className} text-3xl dark-desaturated-cyan md:text-2xl`}
             >
