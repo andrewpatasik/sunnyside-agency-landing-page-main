@@ -69,7 +69,7 @@ export const Features = () => {
           </h2>
           <p className="dark-grayish-blue md:text-sm md:-tracking-[0.5px] md:leading-relaxed lg:text-lg lg:-tracking-[0.65px] lg:leading-relaxed">
             Using a collaborative formula of designers, researchers,
-            photographers, videographers, and copywriters, we'll build and
+            photographers, videographers, and copywriters, we&lsquo;ll build and
             extend your brand in digital places.
           </p>
           <Link href="/" className="relative">
@@ -109,7 +109,7 @@ export const Features = () => {
             </h2>
             <p className="dark-blue text-lg tracking-tighter md:text-sm md:w-3/5 md:mx-auto">
               Great design makes you memorable. We deliver artwork that
-              underscores your brand message and captures potential clients'
+              underscores your brand message and captures potential clients&lsquo;
               attention.
             </p>
           </div>

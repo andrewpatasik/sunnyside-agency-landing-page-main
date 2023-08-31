@@ -2,7 +2,7 @@ import { SunnySideLogo } from "@/assets";
 import Image from "next/image";
 import Link from "next/link";
 
-export default () => {
+const Navbar = () => {
   return (
     <nav className="z-50 fixed w-full flex justify-between items-center p-7">
       <SunnySideLogo />
@@ -32,3 +32,5 @@ export default () => {
     </nav>
   );
 };
+
+export default Navbar;

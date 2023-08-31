@@ -42,7 +42,7 @@ export const Testimonial = () => {
         />
 
         <p className="dark-grayish-blue text-lg basis-3/4">
-          Sunnyside's enthusiasm with their keen interest in our brand's success
+          Sunnyside&lsquo;s enthusiasm with their keen interest in our brand&lsquo;s success
           made it a satisfying and enjoyable experience.
         </p>
         <div className="flex flex-col space-y-2">
